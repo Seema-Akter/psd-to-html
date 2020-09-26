@@ -1,0 +1,401 @@
+/***********************************************************
+*Project Name: Efucafe;
+*Project Date: 16-09-2020;
+*Project Submission Date: 17-09-2020;
+*Clint Name: LEDP WD-11;
+*************************
+*Project Total Pages
+*____________________
+*1.Home
+****Total Section
+****1.TopBar
+****2.Header
+****3.Slider
+****4.Principle
+****5.Course
+****6.Facts
+****7.Blog
+****8.Testimonial
+****9.Footer
+*______________________
+*************************************************************/
+/*************************************************************
+						Base CSS Start
+*************************************************************/
+*,body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+/*************************************************************
+						Base CSS End
+*************************************************************/
+/************************************************************
+						Common CSS start
+**************************************************************/
+.primary_color{
+	color: #56ab2f !important;
+}
+.secondary_color{
+	color: #000022 !important;
+}
+.color_3{
+	color: #222 !important;
+}
+.primary_bg{
+	background-color: #56ab2f !important;
+	color: #fff;
+}
+.secondary_bg{
+	background-color: #000022 !important;
+}
+.fw500{
+	font-weight: 500 !important;
+}
+.fw600{
+	font-weight: 600 !important;
+}
+.fw700{
+	font-weight: 700 !important;
+}
+.fw800{
+	font-weight: 800 !important;
+}
+.fw900{
+	font-weight: 900 !important;
+}
+.btn{
+	border-radius: 0: !important;
+}
+.btn_primary{
+	background-color: #56ab2f !important;
+	color: #fff !important;
+}
+.btn_outline_primary{
+	border: 1px solid #56ab2f!important;
+	color: #56ab2f !important;
+	border-radius: 0;
+}
+.btn_outline_primary:hover{
+	background-color: #56ab2f !important;
+	color: #fff !important;
+}
+/*************************************************************
+						Common CSS End
+**************************************************************/
+/*************************************************************
+						TopBar CSS Start
+**************************************************************/
+.topbar{
+	height: 49px !important;
+	line-height: 49px !important;
+}
+.left-menu li{
+	padding-left: 20px !important;
+}
+.left-menu li:nth-child(1){
+	padding-left: 0px !important;
+}
+.right-menu-li:after{
+	content: "|" !important;
+	padding: 0 10px;
+	color: #c7c7c7;
+}
+
+/**************************************************************
+						TopBar CSS End
+**************************************************************/
+/**************************************************************
+						Header CSS Start
+**************************************************************/
+.header{
+	position: sticky;
+	top: 0;
+}
+.nav_bg{
+	background-color: rgba(255,255,255,.7) !important;
+}
+.nav-link{
+	font-weight: 500 !important;
+}
+.active_c{
+color: #56ab2f !important;	
+}
+
+/**************************************************************
+						Header CSS End
+***************************************************************/
+/***************************************************************
+						breadcrumb CSS Start
+****************************************************************/
+.breadcrum{
+	background-image: url(../images/about/breadcrumb.png);
+	/*background-attachment: fixed;*/
+	background-position: center;
+}
+.about_breadcrumb:after{
+	content: "/";
+	padding-left: 5px;
+}
+.no_underline{
+	color: #56ab2f !important;
+
+}
+.no_underline:hover{
+	text-decoration: none;
+	
+}
+
+/***************************************************************
+						breadcrumb CSS End
+****************************************************************/
+/***************************************************************
+						Course Details CSS Start
+****************************************************************/
+.px_0{
+	padding: 0 !important;
+}
+.py_0{
+	padding: 0 15px !important;
+}
+.pr_0{
+	padding-right: 0 !important;
+}
+.pl_0{
+	padding-left: 0 !important;
+}
+.over span{
+	text-decoration: 2px solid overline #56ab2f !important;
+}
+.mb_0{
+	margin-bottom: 0!important;
+}
+.ico li {
+	/*padding: 0 5px !important;*/
+	margin: 0 3px;
+	width: 25px !important;;
+	height: 25px !important;;
+	font-size: 12px;
+	border-radius: 50%;
+	border: 1px solid #b7b5b5;
+	position: relative;
+}
+.ico li a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	color: #281816;
+	padding: 3px 5px 3px 6px;
+}
+.ico li a:hover{
+	color: #56ab2f !important;
+}
+.ico li:nth-child(1){
+	margin-left: 0px !important;
+}
+/***************************************************************
+						Course Details CSS End
+****************************************************************/
+/***************************************************************
+						Principle CSS Start
+****************************************************************/
+.principle{
+	/*margin-top: 40%;*/
+	padding: 50px 0 !important;
+}
+.text_ind{
+	letter-spacing: 3px;
+}
+.margin_top{
+	margin-top: -39%;
+}
+.max_300{
+max-width: 240px !important;
+}
+.font_size{
+	font-size: 0.95rem !important;
+}
+
+/***************************************************************
+						Principle CSS End
+****************************************************************/
+/***************************************************************
+						Facts CSS Start
+****************************************************************/
+.facts{
+	width: 100%;
+	background: url(../images/home/face_bg.png);
+	background-attachment: fixed;
+
+}
+
+/***************************************************************
+						Facts CSS End
+****************************************************************/
+/***************************************************************
+						Testimonial CSS Start
+****************************************************************/
+
+
+.active_card:hover{
+	border-color: #56ab2f !important;
+}
+.custom_body{
+	padding: 0px !important;
+	padding-top: 10px !important;
+	/*border: 1px solid #d2d2d2 !important;*/
+	border-top: transparent !important;
+}
+.border_btrn{
+	width: 135px;
+	border-bottom: 2px solid #c7c7c7;
+	margin-left: 115px;
+}
+.course-list{
+	margin-bottom: 0px !important;
+}
+.course-list li{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #d2d2d2;
+	border-collapse: collapse;
+	width: 120px;
+	text-align: center;
+	border-bottom: transparent;
+}
+.course-list li:nth-child(1){
+	border-left:transparent;
+}
+.course-list li:nth-child(2){
+	width: 210px;
+	background-color: #56ab2f !important;
+	border-left:transparent;
+	border-right: transparent;
+}
+.course-list li:nth-child(3){
+	border-right:transparent;
+}
+.custom-card-body{
+	padding-top: 10px;
+	border-bottom: 1px solid #56ab2f !important;
+}
+/***************************************************************
+						Testimonial Css End
+****************************************************************/
+/********************************************************************************
+								News Letter Css Start
+*********************************************************************************/
+.email{
+	padding: 10px;
+	width: 30%;
+	background: transparent;
+	border: 1px solid #fff !important;
+	color: white;
+	font-size: 16px;
+}
+.email:focus{
+	outline: none;
+}
+.test_btn{
+	background: #fff;
+	color: #000;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	border: 2px solid rgba(255,255,254,.3);
+}
+/********************************************************************************
+								News Letter Css End
+*********************************************************************************/
+/***************************************************************
+						Blog CSS Start
+****************************************************************/
+
+
+/***************************************************************
+						Blog CSS End
+****************************************************************/
+/***************************************************************
+						Footer CSS Start
+****************************************************************/
+.footer{
+	background: #000;
+}
+.footer-link{
+	padding-top: 15px !important;
+}
+/*.footer-link li{
+	text-align: center;
+}*/
+.footer-link li span{
+	font-size: 18px;
+	color: #56ab2f !important;
+}
+.no-padding-margin{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.footer-bottom{
+	border-top:1px solid #56ab2f !important;
+}
+.footer-icon li{
+	/*padding: 10px;*/
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border: 1px solid white;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 5px;
+}
+/***************************************************************
+						Footer CSS End
+****************************************************************/
+/***************************************************************
+						Responsive CSS Start
+****************************************************************/
+@media only screen and (max-width: 991px){
+	.left-menu li a span{
+		display: none !important;
+	}
+	.position_absolute_slider{
+		top: 10% !important;
+	}
+	.position_absolute{
+		top: 19% !important;
+		left: 46% !important;
+	}
+}
+@media only screen and (max-width: 575px){
+	.position_absolute_slider{
+		top: 14% !important;
+	}
+}
+
+/***************************************************************
+						Responsive CSS End
+****************************************************************/
+/***************************************************************
+			Course Details Responsive CSS Start
+****************************************************************/
+
+
+/***************************************************************
+			Course Details Responsive CSS End
+****************************************************************/
+
+
+
+
